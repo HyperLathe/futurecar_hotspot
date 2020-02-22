@@ -84,8 +84,8 @@ function IntroContent(props) {
 
   return (
   <Intro>
-    <h2>Enhance your living space</h2>
-    <p>From front doors, windows and conservatories to guttering, security systems and garages, find out how each individual element combines to make your house a home.</p>
+    <h2>The car of tomorrow</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <button onClick={closeintro} > Discover more </button>
   </Intro >
   );
