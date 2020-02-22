@@ -26,9 +26,11 @@ const CopyContainer = styled.div`
 const CopyInterior = styled.div`
   position: absolute;
   bottom: 0;
-  border-left: 10px solid #fff;
+  border-left: 10px solid #11f2ff;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 20px 20px 0px;
   @media (max-width: 730px) {
-    border-left: 7px solid #fff;
+    border-left: 7px solid #11f2ff;
   }
 `;
 
@@ -39,10 +41,9 @@ const CopyNav = styled.div`
     button {
       font-size: 1.8rem;
       line-height: 2.7rem;
-      color: #fff;
-      font-family: 'AustinNewsDeckExtraBold', serif;
+      font-family: 'omnium', sans-serif;
       cursor: pointer;
-      color: #7c93d9;
+      color: #11f2ff;
       position: relative;
       background: transparent;
       border: none;
@@ -95,7 +96,7 @@ const CopyNav = styled.div`
     span {
       font-size: 2rem;
       color: #fff;
-      font-family: 'AustinNewsDeckExtraBold', serif;
+      font-family: 'omnium', sans-serif;
       padding: 0 40px;
         @media (max-width: 730px) {
           font-size: 1.5rem;
@@ -246,7 +247,7 @@ function CopyBox(props) {
     props.slideUpdate(null);
 
     props.newBgSize(1);
-    props.newbgXPos(3);
+    props.newbgXPos(0);
     props.newbgYPos(0);
 
     props.newBgSizeMob(2.5);

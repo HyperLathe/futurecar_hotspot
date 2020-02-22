@@ -4,7 +4,7 @@ import './App.css';
 
 
 import Content from "./content/content.json";
-import HouseImg from './components/HouseImg';
+import CarImg from './components/CarImg';
 import IntroContent from './components/IntroContent';
 import Navigation from './components/Navigation';
 import NavigationSpots from './components/NavigationSpots';
@@ -68,7 +68,7 @@ function App() {
     <div className="App">
       <Container>
         <EverestInteractive >
-          <HouseImg
+          <CarImg
           bgz={bgZoom}
           bgx={bgXPos}
           bgy={bgYPos}

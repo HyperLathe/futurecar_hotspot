@@ -13,8 +13,9 @@ const Intro = styled.div`
   padding: 0px 13% 55px 13%;
   h2 {
      font-size: 3rem;
-     font-family: 'AustinNewsDeckExtraBold', serif;
+     font-family: omnium, sans-serif;
      margin: 1rem 0;
+     text-shadow: 0px 0px 5px #000;
    }
    p {
      font-size: 1.7rem;
@@ -27,7 +28,7 @@ const Intro = styled.div`
      border: 2px solid #fff;
      border-radius: 20px;
      margin: 0px auto;
-     font-family: 'AustinNewsDeckExtraBold', serif;
+     font-family: omnium, sans-serif;
      font-size: 2rem;
      background: transparent;
      color: #fff;
@@ -64,7 +65,7 @@ function IntroContent(props) {
   const closeintro = () => {
     props.exitIntroPage(false);
     props.newBgSize(1);
-    props.newbgXPos(3);
+    props.newbgXPos(0);
     props.newbgYPos(0);
 
     props.newBgSizeMob(2.5);

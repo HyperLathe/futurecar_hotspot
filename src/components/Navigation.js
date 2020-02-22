@@ -7,7 +7,7 @@ const contentData = (Content);
 const SelectHotspot = styled.button`
   font-size: 1.4rem;
   padding: 17px 13px;
-  background-color: #98c7b7;
+  background-color: #11f2ff;
   position: absolute;
   border-radius: 0px 0px 20px 20px;
   color: #1e3780;
