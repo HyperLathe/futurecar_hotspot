@@ -14,7 +14,7 @@ const ImgContainer = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
     @media (max-width: 1008px) {
       margin-top: -10%;
     }
