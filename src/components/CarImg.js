@@ -17,7 +17,7 @@ const ImgContainer = styled.div`
   transition: transform 0.5s ease;
   -webkit-transition: transform 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease;
-  will-change: transform;
+  will-change: transform, translate;
     @media (max-width: 1008px) {
       margin-top: -10%;
     }
@@ -43,7 +43,7 @@ const ImgContainerMobile = styled.div`
   transition: transform 0.5s ease;
   -webkit-transition: transform 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease;
-  will-change: transform;
+  will-change: transform, translate;
   display: none;
     @media (max-width: 730px) {
       display: block;
